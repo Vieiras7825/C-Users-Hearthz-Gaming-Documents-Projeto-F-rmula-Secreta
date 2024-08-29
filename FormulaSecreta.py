@@ -13,9 +13,6 @@ class Equipe:
         self.participantes = []
         self.pontuacao = 0
 
-    def adicionar_participante(self, participante):
-        self.participantes.append(participante)
-
     def atualizar_pontuacao(self, pontos):
         self.pontuacao += pontos
 
@@ -33,8 +30,6 @@ class ProjetoFormulaSecreta:
 
 # Exemplo de uso
 projeto = ProjetoFormulaSecreta()
-participante1 = Participante("Alice", 25, "verde")
-projeto.equipes["verde"].adicionar_participante(participante1)
 projeto.equipes["verde"].atualizar_pontuacao(10)
 
 print(projeto.equipes["verde"].pontuacao)  # Saída: 10
