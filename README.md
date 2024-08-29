@@ -1,3 +1,1 @@
-Curso Python
-
-PySide6, Django, Selenium, Regexp, Testes, TDD, POO, Design Patterns GoF, algoritmos e programação
+O Projeto Fórmula Secreta foi um projeto vivenciado na igreja presbiteriana de lajedo - pe, foi desenvolvido, para aprendizado, vínculos afetivos, de maneira dinâmica, de acordo com a idade dos particantes, permitindo criar equipes e atualizar suas pontuações ao longo do tempo. Ele é composto por três classes principais: Participante, que armazena informações básicas; Equipe, que gerencia a cor, participantes e pontuação; e ProjetoFormulaSecreta, que organiza as equipes, atividades e define as datas do evento.
